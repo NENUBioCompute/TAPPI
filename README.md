@@ -5,4 +5,4 @@
 </div>
 
 * train&benchmark -> **source code** of training and benchmark evaluation
-* external -> Apply TAPPI to **external datasets** and ***pathogenic analyse*
+* external -> Apply TAPPI to **external datasets** and ***pathogenic analyse**
