@@ -6,3 +6,9 @@
 
 * train&benchmark -> **source code** of training and benchmark evaluation
 * external -> Apply TAPPI to **external datasets** and ***pathogenic analyse**
+# Requirement
+* python 3.8+
+* pytorch 1.12.0+
+* numpy
+* pandas
+* fair-esm
