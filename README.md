@@ -1,3 +1,23 @@
+## Installation
+
+First clone the repository from GitHub:
+
+```bash
+git clone git@github.com:NENUBioCompute/TAPPI.git
+cd TAPPI
+```
+
+Then install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+It is recommended to use a Python environment with **Python ≥ 3.8** and **PyTorch ≥ 2.0**.
+
+After installing the dependencies, the environment will be ready for running the TAPPI model and related experiments.
+
+
 # TAPPI
  a deep learning framework utilizes LLMs and improved backbones to predict protein-protein interaction variation trends 
  <div align="center">
