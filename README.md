@@ -1,3 +1,5 @@
+# TAPPI
+
 ## Installation
 
 First clone the repository from GitHub:
@@ -18,7 +20,7 @@ It is recommended to use a Python environment with **Python ≥ 3.8** and **PyTo
 After installing the dependencies, the environment will be ready for running the TAPPI model and related experiments.
 
 
-# TAPPI
+## introduction
  a deep learning framework utilizes LLMs and improved backbones to predict protein-protein interaction variation trends 
  <div align="center">
     <img src="docs/base_back.png", width="800">
