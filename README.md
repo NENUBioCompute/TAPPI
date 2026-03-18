@@ -21,6 +21,16 @@ Download the model parameters from the [Figshare](https://figshare.com/ndownload
 
 After installing the dependencies, the environment will be ready for running the TAPPI model and related experiments.
 
+## Inference Example
+
+Run the following command to make a prediction:
+
+```bash
+python predict.py \
+    --seq VSFRYIFGLPPLILVLLPVASSDCDIEGKDGKQYE \
+    --mutation Y5R \
+    --partner PPLILVLLPVASSDCDIEGKDGK
+```
 
 ## introduction
  a deep learning framework utilizes PLM to predict protein-protein interaction variation trends 
