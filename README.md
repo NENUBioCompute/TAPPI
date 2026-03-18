@@ -17,6 +17,8 @@ pip install -r requirements.txt
 
 It is recommended to use a Python environment with **Python ≥ 3.8** and **PyTorch ≥ 2.0**.
 
+Download the model parameters from the [Figshare](https://figshare.com/ndownloader/files/62900644) and place them in the root directory of the project:
+
 After installing the dependencies, the environment will be ready for running the TAPPI model and related experiments.
 
 
