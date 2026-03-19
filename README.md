@@ -46,6 +46,8 @@ Once the dataset is in place, run the evaluation pipeline with:
 python -m train.test
 ```
 
+The above evaluation yields conclusions consistent with those obtained using five-fold cross-validation with a fixed random seed, as well as with the standard train, validation, and test dataset split.
+
 ## introduction
  a deep learning framework utilizes PLM to predict protein-protein interaction variation trends 
  <div align="center">
