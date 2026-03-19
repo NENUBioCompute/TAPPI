@@ -48,6 +48,13 @@ python -m train.test
 
 The obtained results are consistent with the conclusions derived from training using five-fold cross-validation with a fixed random seed for dataset splitting into training, validation, and test sets. The five-fold cross-validation dataset, as well as the data splitting and training procedures, can be reproduced by sequentially executing the [provided scripts](https://github.com/NENUBioCompute/TAPPI/blob/main/train/train_five_cross.ipynb).
 
+### 2. Model Training
+The model can be trained by executing:
+
+```bash
+python -m train.train
+```
+
 ## introduction
  a deep learning framework utilizes PLM to predict protein-protein interaction variation trends 
  <div align="center">
