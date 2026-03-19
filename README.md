@@ -32,6 +32,20 @@ python predict.py \
     --partner PPLILVLLPVASSDCDIEGKDGK
 ```
 
+### Evaluation Instructions
+
+The evaluation results presented in this manuscript can be reproduced using the provided dataset and code. 
+
+1. **Download the test dataset**  
+   Download the test dataset from [Figshare](https://figshare.com/ndownloader/files/62913865) and place it in the root directory of this repository.
+
+2. **Run the evaluation**  
+Once the dataset is in place, run the evaluation pipeline with:
+
+```bash
+python -m train.test
+```
+
 ## introduction
  a deep learning framework utilizes PLM to predict protein-protein interaction variation trends 
  <div align="center">
