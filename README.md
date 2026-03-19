@@ -46,7 +46,7 @@ Once the dataset is in place, run the evaluation pipeline with:
 python -m train.test
 ```
 
-The above evaluation yields conclusions consistent with those obtained using five-fold cross-validation with a fixed random seed, as well as with the standard train, validation, and test dataset split.
+The obtained results are consistent with the conclusions derived from training using five-fold cross-validation with a fixed random seed for dataset splitting into training, validation, and test sets. The five-fold cross-validation dataset, as well as the data splitting and training procedures, can be reproduced by sequentially executing the [provided scripts](https://github.com/NENUBioCompute/TAPPI/blob/main/train/train_five_cross.ipynb).
 
 ## introduction
  a deep learning framework utilizes PLM to predict protein-protein interaction variation trends 
