@@ -12,6 +12,16 @@ Please follow the official installation instructions from the original repositor
 
 ---
 
+## ⬇️ Download Parameters
+
+Before running prediction, download the model parameters:
+
+```bash
+https://figshare.com/ndownloader/files/62968096
+```
+
+---
+
 ## 🚀 Example Prediction
 
 To predict the cooperative effects of multiple mutations at arbitrary distances, run the following command:
