@@ -1,8 +1,8 @@
-# TAPPI-multi (Weighted GMH Loss Version)
+# TAPPI-multi
 
-This repository provides **TAPPI-multi**, an improved version of TAPPI trained with a **weighted GMH loss**, designed to achieve **more balanced prediction performance** and to model the cooperative effects of multi-point mutations.
+This repository provides **TAPPI-multi**, an extension of TAPPI designed for multi-point mutation analysis. It is trained by extracting local features for each mutation, enabling the modeling of cooperative effects of multiple mutations at arbitrary distances.
 
----
+
 
 ## 🚀 Example Prediction
 
