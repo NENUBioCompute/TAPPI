@@ -12,7 +12,7 @@ Please follow the official installation instructions from the original repositor
 
 ---
 
-## ⬇️ Download Required Files
+## ⬇️ Download Parameters
 
 Before running prediction, download the model parameters:
 
