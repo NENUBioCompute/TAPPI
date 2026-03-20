@@ -23,14 +23,36 @@ After installing the dependencies, the environment will be ready for running the
 
 ## Inference Example
 
-Run the following command to make a prediction:
+You can run the following command to make a prediction using the `predict.py` script:
 
 ```bash
-python predict.py \
-    --seq VSFRYIFGLPPLILVLLPVASSDCDIEGKDGKQYE \
-    --mutation Y5R \
+python predict.py \\
+    --seq VSFRYIFGLPPLILVLLPVASSDCDIEGKDGKQYE \\
+    --mutation Y5R \\
     --partner PPLILVLLPVASSDCDIEGKDGK
 ```
+
+**Parameters:**
+
+- `--seq` : The original protein sequence that you want to analyze.  
+- `--mutation` : Mutation(s) to introduce in the original sequence. Use the format `OriginalResiduePositionNewResidue` (e.g., `Y5R` means tyrosine at position 5 is mutated to arginine). Multiple mutations can be specified separated by spaces (see below).  
+- `--partner` : The interacting partner sequence if applicable. This is used for co-evolution or interaction prediction models.  
+
+**Example: Multiple-point mutation prediction**
+
+```bash
+python predict.py \\
+    --seq VSFRYIFGLPPLILVLLPVASSDCDIEGKDGKQYE \\
+    --mutation Y5R I6A G8Y \\
+    --partner PPLILVLLPVASSDCDIEGKDGK
+```
+
+In this example:  
+- `Y5R` mutates tyrosine at position 5 to arginine  
+- `I6A` mutates isoleucine at position 6 to alanine  
+- `G8Y` mutates glycine at position 8 to tyrosine  
+
+The script will output the predicted effect of these mutations on the protein sequence or interaction with the partner.
 
 ### Evaluation Instructions
 
