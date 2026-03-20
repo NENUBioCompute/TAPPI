@@ -28,16 +28,13 @@ def build_input_from_mutations(wt_seq, mutation_list):
 
         seq[pos] = mut_aa
         positions.append(pos)
+    positions.sort()
+    # min_pos = min(positions)
+    # max_pos = max(positions)
 
-    min_pos = min(positions)
-    max_pos = max(positions)
 
-    if max_pos - min_pos > 20:
-        raise ValueError(
-            f"Mutation span too large: {min_pos+1}-{max_pos+1}"
-        )
 
-    region = [(min_pos, max_pos + 1)]
+    region = [(pos, pos + 1) for pos in positions]
 
     mut_seq = "".join(seq)
 
