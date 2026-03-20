@@ -20,6 +20,8 @@ Before running prediction, download the model parameters:
 wget https://figshare.com/ndownloader/files/62952412
 ```
 
+---
+
 ## 🚀 Example Prediction
 
 Run a sample prediction with the following command:
