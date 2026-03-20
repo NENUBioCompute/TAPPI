@@ -14,8 +14,8 @@ Please follow the official installation instructions from the original repositor
 
 ## ⬇️ Download Required Files
 
-Before running prediction, download the required resources:
+Before running prediction, download the model parameters:
 
 ```bash
 wget https://figshare.com/ndownloader/files/62952412
----
+```
