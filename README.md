@@ -61,15 +61,12 @@ python -m train.train
     <img src="docs/base_back.png", width="800">
 </div>
 
-* train&benchmark -> **source code** of training and benchmark evaluation
-* external -> Apply TAPPI to **external datasets** and ***pathogenic analyse**
-* ## Pre-trained Models and Test Dataset
-The pre-trained models and test datasets can be loaded from [Figshare](https://figshare.com/articles/dataset/x_test_fold_mirror_multi_csv/29637008).
-## Model Evaluation
-You can easily understand the model's performance by executing the notebook available at [mippi_simply_variation.ipynb](https://github.com/NENUBioCompute/TAPPI/blob/main/mippi_simply_variation.ipynb).
-# Requirement
-* python 3.8+
-* pytorch 1.12.0+
-* numpy
-* pandas
-* fair-esm
+## 📖 Introduction
+
+**TAPPI** is a model for predicting the effects of mutations on protein–protein interactions (PPI). It classifies mutation–PPI pairs into four categories: *Increasing*, *Decreasing*, *Disrupting*, and *No_Effect*, based on experimentally curated labels.
+
+To better handle multi-point mutations, TAPPI extracts and learns **local features for each mutation**, enabling the modeling of cooperative effects across mutations at arbitrary residue distances.
+
+The model leverages protein language model embeddings (ESM-2) to encode both local and global sequence information from the mutated protein and its interaction partner. Cross-attention layers are further employed to capture interaction changes between mutations and partner proteins.
+
+Overall, TAPPI improves prediction balance and extends its capability to handle complex multi-mutation scenarios.
