@@ -61,8 +61,6 @@ python -m train.train
     <img src="docs/base_back.png", width="800">
 </div>
 
-## 📖 Introduction
-
 **TAPPI** is a model for predicting the effects of mutations on protein–protein interactions (PPI). It classifies mutation–PPI pairs into four categories: *Increasing*, *Decreasing*, *Disrupting*, and *No_Effect*, based on experimentally curated labels.
 
 To better handle multi-point mutations, TAPPI extracts and learns **local features for each mutation**, enabling the modeling of cooperative effects across mutations at arbitrary residue distances.
