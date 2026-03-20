@@ -19,3 +19,14 @@ Before running prediction, download the model parameters:
 ```bash
 wget https://figshare.com/ndownloader/files/62952412
 ```
+
+## 🚀 Example Prediction
+
+Run a sample prediction with the following command:
+
+```bash
+python predict.py \
+    --seq VSFRYIFGLPPLILVLLPVASSDCDIEGKDGKQYE \
+    --mutation Y5R I6A G8Y \
+    --partner PPLILVLLPVASSDCDIEGKDGK
+```
