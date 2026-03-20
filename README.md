@@ -58,15 +58,19 @@ The script will output the predicted effect of these mutations.
 
 The evaluation results presented in this manuscript can be reproduced using the provided dataset and code. 
 
-1. **Download the test dataset**  
+**Download the test dataset**  
    Download the test dataset from [Figshare](https://figshare.com/ndownloader/files/62913865) and place it in the root directory of this repository.
 
-2. **Run the evaluation**  
-Once the dataset is in place, run the evaluation pipeline with:
+### Model Training
+
+Before training the model, the input data needs to be preprocessed. You can run the preprocessing notebook provided here: [IMEx_preprocess.ipynb](https://github.com/NENUBioCompute/TAPPI/blob/main/preprocess/IMEx_preprocess.ipynb).
+
+After preprocessing, train the model using:
 
 ```bash
-python -m train.test
+python -m train.train
 ```
+
 
 The obtained results are consistent with the conclusions derived from training using five-fold cross-validation with a fixed random seed for dataset splitting into training, validation, and test sets. The five-fold cross-validation dataset, as well as the data splitting and training procedures, can be reproduced by sequentially executing the [provided scripts](https://github.com/NENUBioCompute/TAPPI/blob/main/train/train_five_cross.ipynb).
 
