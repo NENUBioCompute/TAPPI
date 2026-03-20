@@ -55,7 +55,7 @@ The model can be trained by executing:
 python -m train.train
 ```
 
-## introduction
+## Introduction
  a deep learning framework utilizes PLM to predict protein-protein interaction variation trends 
  <div align="center">
     <img src="docs/base_back.png", width="800">
@@ -63,5 +63,5 @@ python -m train.train
 
 **TAPPI** is a model for predicting the effects of mutations on protein–protein interactions (PPI). It classifies PPI variations into four categories: *Increasing*, *Decreasing*, *Disrupting*, and *No_Effect*.
 
-## extensions
+## Extensions
 We introduce extensions to improve class balance and to explicitly handle multi-point mutations across arbitrary distances.
