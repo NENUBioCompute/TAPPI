@@ -15,7 +15,7 @@ Then install the required dependencies:
 pip install -r requirements.txt
 ```
 
-It is recommended to use a Python environment with **Python ≥ 3.8** and **PyTorch ≥ 2.0**.
+It is recommended to use a Python environment with Python ≥ 3.8 and PyTorch ≥ 2.0. All required dependencies are listed in requirements.txt for easy installation.
 
 Download the model parameters from the [Figshare](https://figshare.com/ndownloader/files/62900644) and place them in the root directory of the project:
 
