@@ -2,7 +2,15 @@
 
 This repository provides **TAPPI-multi**, an extension of TAPPI designed for multi-point mutation analysis. It is trained by extracting local features for each mutation, enabling the modeling of cooperative effects of multiple mutations at arbitrary distances.
 
+---
 
+## 🔧 Installation
+
+Please follow the official installation instructions from the original repository:
+
+👉 https://github.com/NENUBioCompute/TAPPI
+
+---
 
 ## 🚀 Example Prediction
 
