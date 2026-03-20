@@ -1,4 +1,4 @@
-# TAPPI (Weighted GMH Loss Version)
+# TAPPI-loss (Weighted GMH Loss Version)
 
 This repository provides an improved version of TAPPI trained with a **weighted GMH loss**, aiming to achieve **more balanced prediction performance**.
 
