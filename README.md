@@ -65,3 +65,7 @@ python -m train.train
 
 ## Extensions
 We introduce extensions to improve class balance and to explicitly handle multi-point mutations across arbitrary distances.
+
+[TAPPI-loss](https://github.com/NENUBioCompute/TAPPI/tree/main/extend/tappi-loss) employs a weighted GMH loss to improve prediction balance among different classes.
+
+[TAPPI-multi](https://github.com/NENUBioCompute/TAPPI/tree/main/extend/tappi-multi) extends the framework to explicitly capture the cooperative effects of multi-point mutations at arbitrary distances.
