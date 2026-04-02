@@ -89,3 +89,9 @@ We introduce extensions to improve class balance and to explicitly handle multi-
 [TAPPI-loss](https://github.com/NENUBioCompute/TAPPI/tree/main/extend/tappi-loss) employs a weighted GMH loss to improve prediction balance among different classes.
 
 [TAPPI-multi](https://github.com/NENUBioCompute/TAPPI/tree/main/extend/tappi-multi) extends the framework to explicitly capture the cooperative effects of multi-point mutations at arbitrary distances.
+
+## Source Data
+
+The raw data underlying all figures are provided in the `Source Data` files.  
+
+Files can be found in the repository: [figures folder](https://github.com/NENUBioCompute/TAPPI/tree/main/figures).
