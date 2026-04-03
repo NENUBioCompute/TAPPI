@@ -12,7 +12,7 @@ Before using this feature, please make sure the following Python packages are in
 pip install openpyxl ptitprince seaborn
 ```
 
-### Figure 4b
+### Figure 5b
 
 This figure is based on the image produced by `fig_4_b.py` and was further processed manually.
 
