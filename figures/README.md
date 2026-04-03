@@ -19,7 +19,7 @@ Fig 3c was generated using `figure_3_c.py`. The figure can be rotated from the r
 To run the script:
 
 ```bash
-python figure_3_c.py
+python fig_3_c.py
 ```
 
 ### Figure 4b
