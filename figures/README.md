@@ -12,6 +12,16 @@ Before using this feature, please make sure the following Python packages are in
 pip install openpyxl ptitprince seaborn
 ```
 
+## Figure 3c
+
+Fig 3c was generated using `figure_3_c.py`. The figure can be rotated from the results.
+
+To run the script:
+
+```bash
+python figure_3_c.py
+```
+
 ### Figure 4b
 
 This figure is based on the image produced by `fig_4_b.py` and was further processed manually.
