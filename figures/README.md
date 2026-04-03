@@ -19,7 +19,7 @@ Fig 3c was generated using `figure_3_c.py`. The figure can be rotated from the r
 To run the script:
 
 ```bash
-python fig_3_c.py
+python figure_3_c.py
 ```
 
 ### Figure 4b
@@ -27,7 +27,7 @@ python fig_3_c.py
 This figure is based on the image produced by `fig_4_b.py` and was further processed manually.
 
 ```bash
-python fig_4_b.py
+python figure_4_b.py
 ```
 
 ### Figure 5b
@@ -35,7 +35,7 @@ python fig_4_b.py
 This figure is based on the image produced by `fig_5_b.py` and was further processed manually.
 
 ```bash
-python fig_5_b.py
+python figure_5_b.py
 ```
 
 ### Figure 5f
@@ -43,7 +43,7 @@ python fig_5_b.py
 This figure is based on the image produced by `fig_5_f.py` and was further processed manually.
 
 ```bash
-python fig_5_f.py
+python figure_5_f.py
 ```
 
 ### Figure 5j
@@ -51,7 +51,7 @@ python fig_5_f.py
 This figure is based on the image produced by `fig_5_j.py` and was further processed manually.
 
 ```bash
-python fig_5_f.py
+python figure_5_f.py
 ```
 
 ### Figure S7
