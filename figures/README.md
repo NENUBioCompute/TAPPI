@@ -13,6 +13,12 @@ Before using this feature, please make sure the following Python packages are in
 pip install openpyxl ptitprince seaborn gseapy
 ```
 
+### Data and Code Availability
+
+- **Full dataset and visualization code:** The complete data and the code used for generating all figures can be downloaded from [Figshare](https://figshare.com/ndownloader/files/63462042).  
+
+- **Individual figure data and visualization:** Data and plotting code for individual figures can be accessed as follows:
+
 ### Figure 2
 Source data for Fig. 2a can be downloaded, and the visualization and calculation process can be found in [figure_2a.ipynb](https://github.com/NENUBioCompute/TAPPI/blob/main/figures/figure_2a.ipynb).
 
