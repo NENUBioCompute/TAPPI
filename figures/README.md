@@ -15,7 +15,7 @@ pip install openpyxl ptitprince seaborn
 ### Figure 2
 Source data for Fig. 2a can be downloaded, and the visualization and calculation process can be found in [figure_2a.ipynb](https://github.com/NENUBioCompute/TAPPI/blob/main/figures/figure_2a.ipynb).
 
-Source data for Fig. 2b can be downloaded, and the visualization and calculation process can be found in [figure_2b.ipynb](https://github.com/NENUBioCompute/TAPPI/blob/main/figures/figure_2a.ipynb).
+Source data for Fig. 2b can be downloaded, and the visualization and calculation process can be found in [figure_2b.ipynb](https://github.com/NENUBioCompute/TAPPI/blob/main/figures/figure_2b.ipynb).
 
 
 ### Figure 3a
