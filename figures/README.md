@@ -17,6 +17,8 @@ Source data for Fig. 2a can be downloaded, and the visualization and calculation
 
 Source data for Fig. 2b can be downloaded, and the visualization and calculation process can be found in [figure_2b.ipynb](https://github.com/NENUBioCompute/TAPPI/blob/main/figures/figure_2b.ipynb).
 
+Source data for Fig. 2c-e can be downloaded, and the visualization and calculation process can be found in [figure_2c-e.ipynb](https://github.com/NENUBioCompute/TAPPI/blob/main/figures/figure_2c-e.ipynb).
+
 
 ### Figure 3a
 
