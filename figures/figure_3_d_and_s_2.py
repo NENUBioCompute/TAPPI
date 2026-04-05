@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # -----------------------------
 # 1. Download data
 # -----------------------------
-url = "https://figshare.com/ndownloader/files/63428655"  # ← 你需要替换成实际DDG数据链接
+url = "https://figshare.com/ndownloader/files/63428655" 
 local_file = "ddg_data.csv"
 
 r = requests.get(url)
