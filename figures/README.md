@@ -76,7 +76,7 @@ python figure_5_f.py
 This figure is based on the image produced by `fig_5_j.py` and was further processed manually.
 
 ```bash
-python figure_5_f.py
+python figure_5_j.py
 ```
 
 ### Figure S7
