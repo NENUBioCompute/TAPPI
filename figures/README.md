@@ -5,11 +5,12 @@ Before using this feature, please make sure the following Python packages are in
 - `openpyxl`
 - `ptitprince`
 - `seaborn`
+- `gseapy`
 
 ### Install via pip
 
 ```bash
-pip install openpyxl ptitprince seaborn
+pip install openpyxl ptitprince seaborn gseapy
 ```
 
 ### Figure 2
