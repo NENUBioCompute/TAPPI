@@ -42,6 +42,10 @@ class GroundingAttention(nn.Module):
         return x
 
 class FFN(nn.Module):
+    """
+    Residual feed-forward network.
+    """
+    
     def __init__(self, input_dim, hidden_dim):
         super(FFN, self).__init__()
         self.relu = nn.ReLU()
