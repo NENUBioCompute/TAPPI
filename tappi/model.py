@@ -340,7 +340,28 @@ class TAPPI(nn.Module):
 
     
     def forward(self, mut0s, mut1s, pars, mut0_padding_mask, par_padding_mask, weight, label):
-
+        """
+        Inference function.
+    
+        Args:
+            mut0s:
+                Wild-type protein embeddings.
+    
+            mut1s:
+                Mutated protein embeddings.
+    
+            pars:
+                Interaction partner embeddings.
+    
+            mut0_padding_mask:
+                Padding mask for mutation proteins.
+    
+            par_padding_mask:
+                Padding mask for partner proteins.
+    
+        Returns:
+            Logits for four mutation-induced PPI variation trends.
+        """
         mut0s = mut0s.to(pars.device)
         mut1s = mut1s.to(pars.device)
         pars = pars.to(pars.device)
