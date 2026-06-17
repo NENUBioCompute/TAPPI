@@ -242,7 +242,32 @@ position_embedding = positional_encoding(
 
 
 def tappi_forward(positions, mut0, mut1, par0, model, device = DEVICE, esm_model = esm_model, position_embedding = position_embedding, len_range = LEN_RANGE):
+    """
+    TAPPI inference pipeline.
 
+    Workflow:
+        1. Encode wild-type, mutant, and partner proteins using ESM.
+        2. Extract mutation-centered local representations.
+        3. Preserve a global sequence summary token (mean embedding).
+        4. Add positional encodings.
+        5. Predict mutation-induced PPI variation trends.
+
+    Args:
+        positions:
+            Mutation positions.
+
+        mut0:
+            Wild-type protein sequences.
+
+        mut1:
+            Mutated protein sequences.
+
+        par0:
+            Interaction partner sequences.
+
+    Returns:
+        Four-class prediction logits.
+    """
     mut0,mut0_mask = esm_model.encode(mut0)
     # print(mut0_mask)
     mut1,mut1_mask = esm_model.encode(mut1)
