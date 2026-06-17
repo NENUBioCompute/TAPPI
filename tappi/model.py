@@ -80,6 +80,25 @@ class bertlayer(nn.Module):
 
 
 class InteractionBlock(nn.Module):
+    """
+    Bidirectional interaction modeling block.
+
+    Stage 1:
+        Injector
+        Mutation protein representation attends to
+        interaction partner representation.
+
+    Stage 2:
+        Internal refinement using self-attention.
+
+    Stage 3:
+        Extractor
+        Partner representation attends back to
+        mutation protein representation.
+
+    This design enables iterative information exchange
+    between interacting proteins.
+    """
     def __init__(self, embed_dim, ffn_dim, BertLayerNorm = ESM1bLayerNorm, attention_heads = 16, add_bias_kv = True, use_rotary_embeddings = True):
         super(InteractionBlock, self).__init__()
         # self.injector_query_norm = norm_layer(embedding_dim)
@@ -280,6 +299,22 @@ class MLP_head_one_layer(nn.Module):
         return result
 
 class TAPPI(nn.Module):
+    """
+    TAPPI model for mutation-induced PPI variation trend prediction.
+
+    Architecture:
+        Mutation representations + Partner protein representations
+                                ↓
+                         MPI Adapter Backbone
+                                ↓
+                            MLP Neck
+                                ↓
+                     4-class Classification Head
+
+    Output classes:
+        Disrupting, Decreasing, No_Effect, Increasing
+    """
+
     def __init__(self, embedding_dim = 192, num_layers = 39):
         super(TAPPI, self).__init__()
         self.result = nn.Parameter(torch.randn(1280))
